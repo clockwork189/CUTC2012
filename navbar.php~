@@ -1,0 +1,11 @@
+                <div id="nav">
+                    <ul class="lavaLampBottomStyle" id="3">
+		        <li><a href="index.php" class="pageslide-close"><img src="images/logo.png" style="height:70px; margin-top:-20px;" /></a>
+                        <li><a href="about.php" class="pageslide-close" id="about">ABOUT</a></li>
+                        <li><a href="tour.php" class="pageslide-close" id="tour">TOUR</a></li>
+                        <li><a href="national.php" class="pageslide-close" id="national">NATIONAL</a></li>
+                        <li><a href="partners.php" class="pageslide-close" id="partners">PARTNERS</a></li>
+                        <li><a href="contact.php" class="pageslide-close" id="contact">CONTACT US</a></li>
+                    </ul>
+                </div>
+
