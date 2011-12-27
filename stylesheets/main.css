@@ -1,0 +1,187 @@
+html, body { 
+    text-align: center; 
+}
+
+{ 
+    margin: 0; 
+    padding: 0; 
+    text-align:center; 
+}
+
+img { 
+    border: 0px; 
+}
+
+img a { 
+    border: 0px; 
+}
+
+body {
+    margin: auto; 
+    margin-top: 0px; 
+    font-size: 15px;
+    font-family: Gill Sans MT, sans-serif;
+    color: #000; 
+    background: white url("../images/bg_dots.png");
+}
+
+h1 {
+    line-height:15px;
+}
+h2 {
+    line-height:2px;
+}
+h3 {
+    line-height:20px;
+    font-size:22px;
+}
+
+#tile-holder {
+    position:relative;
+}
+
+#header {
+    width:100%;
+    position: absolute;
+    left:0;
+    top:0;
+    margin:auto !important;
+    height: 80px;
+    background-color:#be1212;
+    -moz-box-shadow: 0 0 5px 5px #888;
+    -webkit-box-shadow: 0 0 5px 5px#888;
+    box-shadow: 0 0 5px 5px #888;
+}
+
+#footer {
+    color: #969696;
+    font-size: 18px;
+    text-align: right;
+    padding-right:20px;
+    right:0%;
+    position:absolute;
+}
+
+#description_holder {
+    margin-left:100px;
+    color:#000;
+    height: 100%;
+    text-align:left;
+    position: relative;
+    width:670px;
+}
+
+#main_content {
+    height: 100%;
+    color:#000;
+    display:block;
+}
+
+#main_content p a {
+    text-decoration:underline;
+    color:white;
+}
+
+#nav {
+    display:block;
+    text-align:center; 
+    height: 75px;
+    width: 100%; 
+    padding:0px; 
+    margin:0px;
+    left:0;
+}
+
+.lavaLampBottomStyle {
+    width: 100%; 
+    height: 70px;
+    padding:0px; 
+    margin:0px;
+    left:0;
+    position: absolute; 
+}
+
+.lavaLampBottomStyle li {
+    float:left;
+    width:13%;
+    min-width:100px;
+    list-style: none;
+}
+
+.lavaLampBottomStyle li a {
+    outline: none;
+    top: 0px;
+    letter-spacing: 0;
+    z-index: 100;
+    display: block;
+    overflow:hidden;
+    padding-top:25px;
+    height:60px;
+    color: #fff;
+    font-size:16px;
+    font-weight:bold;
+    text-decoration:none;
+    text-transform: uppercase;
+    text-align:center;
+}   
+
+.lavaLampBottomStyle li a:hover, .lavaLampBottomStyle li a:active, .lavaLampBottomStyle li a:visited {
+    border-top: 5px solid #fff;
+    margin: 0px;
+    padding-top: 20px;
+}
+
+.super-huge {
+    font-size:200px;   
+    font-weight:700;
+    color: #be1212;
+    font-family: Tahoma, Geneva, sans-serif;
+    margin-left:-10px;
+    margin-bottom:-30px;
+}
+
+.huge {
+    font-size:70px;   
+    color: #252526;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight:300px;
+}
+
+.xxl {
+    font-size:40px;   
+    color: #252526;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight:300px;
+}
+
+
+#pageslide-slide-wrap {
+    background: white url("../images/bg_dots.png");
+    text-align: left;
+}
+
+#keywords {
+    color:#be1212; 
+    width:386px; 
+    height:40px;
+    float:right;
+    letter-spacing: 2px;
+    white-space:nowrap;    
+}
+
+.content-holder {
+    background-color: #e9e4dc;
+    width:900px;
+    height:100%;
+    margin:0 auto;
+    color: #000;
+    padding: 15px;
+    text-align: left;
+}
+
+#social-media {
+    bottom:50%;
+    position: fixed;
+    float: left;
+    z-index: 900;
+}
